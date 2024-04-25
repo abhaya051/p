@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.Head {
+  text-align: center;
+}
+.FaqQuoter {
+  width: 100%;
+  height: 100%;
+}
+.faqItems {
+  border: 1px solid white;
+  margin-bottom: 1rem;
+}
+.faqItems h2 {
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.faqItems p {
+  margin: 0;
+  height: 0px;
+  transform: scaleY(0);
+  padding: 0;
+  transition: ease-in-out 0.2s;
+}
+.ActiveAns {
+  height: auto !important;
+  transform: scaleY(1) !important;
+  padding: 10px !important;
+}
